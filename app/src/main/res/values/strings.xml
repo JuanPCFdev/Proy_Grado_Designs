@@ -2,4 +2,13 @@
     <string name="app_name">ProyectoGrado</string>
     <string name="navigation_drawer_open">Open</string>
     <string name="navigation_drawer_close">Close</string>
+    <string name="titleHomePage">Bienvenido al software ganadero</string>
+    <string name="homePageFinca">Finca</string>
+    <string name="homePageUsuario">Usuario</string>
+    <string name="homePageDiagnostico">Diagnostico</string>
+    <string name="homePageAyuda">Ayuda</string>
+    <string name="homePageGanado">Ganado</string>
+    <string name="homePageTratamientos">Vacunas</string>
+    <string name="homePageFinanza">Finanzas</string>
+    <string name="homePageNotificacion">Notificaciones</string>
 </resources>
