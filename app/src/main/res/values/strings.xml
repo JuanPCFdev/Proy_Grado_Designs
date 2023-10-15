@@ -16,4 +16,10 @@
     <string name="Proy_register_button_alreadyR">Ya estoy registrado</string>
     <string name="Proy_user_edit_info">Editar mi información</string>
     <string name="Proy_user_edit_password">Cambiar mi contraseña</string>
+    <string name="Proy_userEdit_Title">Editar información</string>
+    <string name="Proy_userEdit_Button_save">Guardar Cambios</string>
+    <string name="Proy_userEdit_update_password">Actualizar Contraseña</string>
+    <string name="Proy_userEdit_old_password">Contraseña antigua</string>
+    <string name="Proy_userEdit_new_password">contraseña nueva</string>
+    <string name="Proy_userEdit_confirm_new_password">confirmar contraseña nueva</string>
 </resources>
