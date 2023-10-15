@@ -2,4 +2,16 @@
     <string name="app_name">ProyectoGrado</string>
     <string name="navigation_drawer_open">Open</string>
     <string name="navigation_drawer_close">Close</string>
+    <string name="Proy_Title_Login">Software Ganadero</string>
+    <string name="Proy_TextView_User">Usuario</string>
+    <string name="Proy_TextView_Password">Contraseña</string>
+    <string name="Proy_Button_Record_Password">Recordar Contraseña</string>
+    <string name="Proy_Button_Register">Registrarse</string>
+    <string name="Proy_Button_Login">Ingresar</string>
+    <string name="Proy_Title_Register">Registro de usuario</string>
+    <string name="Proy_register_name">Nombre</string>
+    <string name="Proy_register_tel">Telefono</string>
+    <string name="Proy_register_security_word">Pregunta de seguridad</string>
+    <string name="Proy_register_confirm_password">Confirmar contraseña</string>
+    <string name="Proy_register_button_alreadyR">Ya estoy registrado</string>
 </resources>
