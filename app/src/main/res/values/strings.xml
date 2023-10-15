@@ -14,4 +14,6 @@
     <string name="Proy_register_security_word">Pregunta de seguridad</string>
     <string name="Proy_register_confirm_password">Confirmar contraseña</string>
     <string name="Proy_register_button_alreadyR">Ya estoy registrado</string>
+    <string name="Proy_user_edit_info">Editar mi información</string>
+    <string name="Proy_user_edit_password">Cambiar mi contraseña</string>
 </resources>
