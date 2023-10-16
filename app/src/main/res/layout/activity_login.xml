@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingHorizontal="30dp"
-    android:background="#EAF1E2"
+    android:background="@color/Proy_background"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".LoginActivity">
 
@@ -12,7 +12,7 @@
         android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Software Ganadero"
+        android:text="@string/Proy_Title_Login"
         android:textSize="35sp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.2"
-        android:backgroundTint="#EEEE"
+        android:backgroundTint="@color/FondoCarta"
         app:cardCornerRadius="20dp"
         >
 
@@ -46,7 +46,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Usuario"
+                android:text="@string/Proy_TextView_User"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 />
@@ -61,7 +61,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Contraseña"
+                android:text="@string/Proy_TextView_Password"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 />
@@ -76,22 +76,22 @@
                 android:layout_marginVertical="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#008AFC"
-                android:text="Recordar Contraseña"
+                android:textColor="@color/Proy_Button_LogIn_Special"
+                android:text="@string/Proy_Button_Record_Password"
                 android:backgroundTint="#CECECE"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#008AFC"
-                android:text="Registrarse"
+                android:textColor="@color/Proy_Button_LogIn_Special"
+                android:text="@string/Proy_Button_Register"
                 android:backgroundTint="#CECECE"/>
 
             <Button
                 android:layout_marginTop="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ingresar"
-                android:backgroundTint="#EF4949"
+                android:text="@string/Proy_Button_Login"
+                android:backgroundTint="@color/Proy_Button_LogIn_Special"
                 android:layout_gravity="center"
                 />
         </LinearLayout>

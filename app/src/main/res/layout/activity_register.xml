@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EAF1E2"
+    android:background="@color/Proy_background"
     tools:context=".RegisterActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:text="Registro de usuario"
+        android:text="@string/Proy_Title_Register"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/cardRegister"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:backgroundTint="#EEEE"
+        android:backgroundTint="@color/FondoCarta"
         app:cardCornerRadius="20dp"
         >
 
@@ -42,7 +42,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nombre"
+                android:text="@string/Proy_register_name"
                 android:textSize="23sp"
                 android:textStyle="bold"
                 />
@@ -56,7 +56,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Telefono"
+                android:text="@string/Proy_register_tel"
                 android:textSize="23sp"
                 android:textStyle="bold"
                 />
@@ -70,7 +70,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pregunta de seguridad"
+                android:text="@string/Proy_register_security_word"
                 android:textSize="23sp"
                 android:textStyle="bold"
                 />
@@ -84,7 +84,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Contraseña"
+                android:text="@string/Proy_TextView_Password"
                 android:textSize="23sp"
                 android:textStyle="bold"
                 />
@@ -98,7 +98,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Confirmar contraseña:"
+                android:text="@string/Proy_register_confirm_password"
                 android:textSize="23sp"
                 android:textStyle="bold"
                 />
@@ -114,16 +114,16 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#CECECE"
                 android:textSize="11sp"
-                android:text="Ya estoy registrado"
-                android:textColor="#008AFC"
+                android:text="@string/Proy_register_button_alreadyR"
+                android:textColor="@color/Proy_Button_LogIn_Special"
                 android:textStyle="bold" />
 
             <Button
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Registrarme"
-                android:backgroundTint="#EF4949"
+                android:text="@string/Proy_Button_Register"
+                android:backgroundTint="@color/BotonRojo"
                 android:layout_gravity="center"
                 />
 
