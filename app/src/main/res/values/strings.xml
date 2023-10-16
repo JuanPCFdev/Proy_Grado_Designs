@@ -31,4 +31,12 @@
     <string name="Proy_userEdit_old_password">Contraseña antigua</string>
     <string name="Proy_userEdit_new_password">contraseña nueva</string>
     <string name="Proy_userEdit_confirm_new_password">confirmar contraseña nueva</string>
+    <string name="FincaRegister">Registrar finca</string>
+    <string name="FincaName">Nombre de la finca</string>
+    <string name="FincaAddres">Dirección de la finca</string>
+    <string name="FincaHectares">Hectareas de la finca</string>
+    <string name="FincaCapacity">Número de animales maximo</string>
+    <string name="FincaPicture">Foto de la finca</string>
+    <string name="FincaEdit">Editar información de la finca</string>
+    <string name="homePageFincaDescription">Seleccione la finca con la que desea ingresar, en caso de no tener una finca registrada seleccione el boton registrar finca.</string>
 </resources>

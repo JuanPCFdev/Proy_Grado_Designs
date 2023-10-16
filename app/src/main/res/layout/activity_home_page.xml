@@ -25,45 +25,47 @@
         android:id="@+id/llfirst"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleHomePage"
-        app:layout_constraintVertical_bias="0.05"
-        android:gravity="center">
+        app:layout_constraintVertical_bias="0.05">
 
         <androidx.cardview.widget.CardView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            app:cardCornerRadius="16dp"
             android:layout_marginHorizontal="16dp"
-            app:cardBackgroundColor="@color/homepage">
+            app:cardBackgroundColor="@color/homepage"
+            app:cardCornerRadius="16dp">
 
             <Button
                 android:id="@+id/btnConsultarFinca"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="@color/black"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:textColor="@color/black" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/homePageFinca"
                     android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:layout_width="55dp"
                     android:layout_height="60dp"
                     android:background="@drawable/finca"
-                    android:scaleType="centerCrop"/>
+                    android:scaleType="centerCrop" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -71,34 +73,36 @@
         <androidx.cardview.widget.CardView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            app:cardCornerRadius="16dp"
             android:layout_marginHorizontal="16dp"
-            app:cardBackgroundColor="@color/homepage">
+            app:cardBackgroundColor="@color/homepage"
+            app:cardCornerRadius="16dp">
 
             <Button
                 android:id="@+id/btnConsultarUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="@color/black"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:textColor="@color/black" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/homePageUsuario"
                     android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:layout_width="55dp"
                     android:layout_height="60dp"
-                    android:background="@drawable/finca"
-                    android:scaleType="centerCrop"/>
+                    android:background="@drawable/user"
+                    android:scaleType="centerCrop" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -108,45 +112,47 @@
         android:id="@+id/llsecond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/llfirst"
-        app:layout_constraintVertical_bias="0.05"
-        android:gravity="center">
+        app:layout_constraintVertical_bias="0.05">
 
         <androidx.cardview.widget.CardView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            app:cardCornerRadius="16dp"
             android:layout_marginHorizontal="16dp"
-            app:cardBackgroundColor="@color/homepage">
+            app:cardBackgroundColor="@color/homepage"
+            app:cardCornerRadius="16dp">
 
             <Button
                 android:id="@+id/btnConsultarDiagnostico"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="@color/black"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:textColor="@color/black" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/homePageDiagnostico"
                     android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:layout_width="55dp"
                     android:layout_height="60dp"
                     android:background="@drawable/robot"
-                    android:scaleType="centerCrop"/>
+                    android:scaleType="centerCrop" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -154,81 +160,86 @@
         <androidx.cardview.widget.CardView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            app:cardCornerRadius="16dp"
             android:layout_marginHorizontal="16dp"
-            app:cardBackgroundColor="@color/homepage">
+            app:cardBackgroundColor="@color/homepage"
+            app:cardCornerRadius="16dp">
 
             <Button
                 android:id="@+id/btnConsultarAyuda"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="@color/black"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:textColor="@color/black" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/homePageAyuda"
                     android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:layout_width="55dp"
                     android:layout_height="60dp"
                     android:background="@drawable/ayuda"
-                    android:scaleType="centerCrop"/>
+                    android:scaleType="centerCrop" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/llthird"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/llsecond"
-        app:layout_constraintVertical_bias="0.05"
-        android:gravity="center">
+        app:layout_constraintVertical_bias="0.05">
 
         <androidx.cardview.widget.CardView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            app:cardCornerRadius="16dp"
             android:layout_marginHorizontal="16dp"
-            app:cardBackgroundColor="@color/homepage">
+            app:cardBackgroundColor="@color/homepage"
+            app:cardCornerRadius="16dp">
 
             <Button
                 android:id="@+id/btnConsultarGanado"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="@color/black"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:textColor="@color/black" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/homePageGanado"
                     android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:layout_width="55dp"
                     android:layout_height="60dp"
                     android:background="@drawable/cow_icon"
-                    android:scaleType="centerCrop"/>
+                    android:scaleType="centerCrop" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -236,34 +247,36 @@
         <androidx.cardview.widget.CardView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            app:cardCornerRadius="16dp"
             android:layout_marginHorizontal="16dp"
-            app:cardBackgroundColor="@color/homepage">
+            app:cardBackgroundColor="@color/homepage"
+            app:cardCornerRadius="16dp">
 
             <Button
                 android:id="@+id/btnConsultarTratamientos"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="@color/black"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent"
+                android:textColor="@color/black" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/homePageTratamientos"
                     android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:layout_width="55dp"
                     android:layout_height="60dp"
                     android:background="@drawable/vacuna_icon"
-                    android:scaleType="centerCrop"/>
+                    android:scaleType="centerCrop" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

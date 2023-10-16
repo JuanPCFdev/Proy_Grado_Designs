@@ -13,8 +13,17 @@
         android:theme="@style/Theme.ProyectoGrado"
         tools:targetApi="31">
         <activity
-            android:name=".homePageActivity" 
-            android:exported="false"/>
+            android:name=".EditFincaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterFincaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homePageFincaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homePageActivity"
+            android:exported="false" />
         <activity
             android:name=".ChangePasswordActivity"
             android:exported="false" />

@@ -10,17 +10,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Proy_Title_Register"
-        android:textSize="30sp"
+        android:layout_marginHorizontal="60dp"
+        android:text="@string/FincaEdit"
+        android:textSize="25dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/cardRegister"
+        app:layout_constraintBottom_toTopOf="@id/cardEdit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardRegister"
-        android:layout_width="300dp"
+        android:id="@+id/cardEdit"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="25dp"
         android:backgroundTint="@color/FondoCarta"
@@ -40,76 +41,75 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Proy_register_name"
+                android:text="@string/FincaName"
                 android:textSize="23sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:layout_width="250dp"
+                android:id="@+id/etFincaNameEdit"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
-                android:singleLine="true" />
+                android:singleLine="true"
+                tools:text="Nombre finca" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Proy_register_tel"
+                android:text="@string/FincaAddres"
                 android:textSize="23sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:layout_width="250dp"
+                android:id="@+id/etFincaAddresEdit"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
-                android:singleLine="true" />
+                android:singleLine="true"
+                tools:text="cr 14 f .." />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Proy_register_security_word"
+                android:text="@string/FincaHectares"
                 android:textSize="23sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:layout_width="250dp"
+                android:id="@+id/etFincaHaectaresEdit"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
-                android:singleLine="true" />
+                android:singleLine="true"
+                tools:text="18" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Proy_TextView_Password"
+                android:text="@string/FincaCapacity"
                 android:textSize="23sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:layout_width="250dp"
+                android:id="@+id/etFincaCapacityEdit"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
-                android:singleLine="true" />
+                android:singleLine="true"
+                tools:text="20" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Proy_register_confirm_password"
+                android:text="@string/FincaPicture"
                 android:textSize="23sp"
                 android:textStyle="bold" />
 
-            <EditText
-                android:layout_width="250dp"
-                android:layout_height="50dp"
-                android:maxLines="1"
-                android:singleLine="true" />
-
-            <Button
+            <ImageView
+                android:id="@+id/ivFincaEdit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#CECECE"
-                android:text="@string/Proy_register_button_alreadyR"
-                android:textColor="@color/Proy_Button_LogIn_Special"
-                android:textSize="11sp"
-                android:textStyle="bold" />
+                android:src="@drawable/finca" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -117,7 +117,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
                 android:backgroundTint="@color/BotonRojo"
-                android:text="@string/Proy_Button_Register" />
+                android:text="@string/FincaEdit" />
 
         </LinearLayout>
 
@@ -130,6 +130,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardRegister" />
+        app:layout_constraintTop_toBottomOf="@+id/cardEdit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
