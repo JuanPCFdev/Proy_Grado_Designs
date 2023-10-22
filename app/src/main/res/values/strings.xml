@@ -39,4 +39,16 @@
     <string name="FincaPicture">Foto de la finca</string>
     <string name="FincaEdit">Editar información de la finca</string>
     <string name="homePageFincaDescription">Seleccione la finca con la que desea ingresar, en caso de no tener una finca registrada seleccione el boton registrar finca.</string>
+    <string name="homePageGanado_consult">Consultar Ganado</string>
+    <string name="homePageGanado_consult_cria">Consultar Ganado de Cria</string>
+    <string name="homePageGanado_consult_levante">Consultar Ganado de Levante</string>
+    <string name="homePageGanado_register">Registrar Ganado</string>
+    <string name="homePageGanado_register_cria">Registrar Ganado de Cria</string>
+    <string name="homePageGanado_register_levante">Registrar Ganado de Levante</string>
+    <string name="homePageGanado_sell">Vender Ganado</string>
+    <string name="tip_consult_ganado">Para editar la información de cada animal presione sobre la imagen del lapiz rojo</string>
+    <string name="GanadoCria">Ganado de Cria</string>
+    <string name="GanadoLevante">Ganado de Levante</string>
+    <string name="info_Ganado_Cria">Información : Ganado de Cria</string>
+    <string name="info_Ganado_Levante">Información : Ganado de Levante</string>
 </resources>
