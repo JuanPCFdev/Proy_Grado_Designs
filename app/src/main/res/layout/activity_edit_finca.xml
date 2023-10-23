@@ -8,16 +8,18 @@
     tools:context=".RegisterActivity">
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
-        android:text="@string/FincaEdit"
+        android:text="@string/finanzasCompra"
         android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/cardEdit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardEdit"
@@ -29,107 +31,135 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="@+id/title">
+
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
             android:orientation="vertical"
             android:padding="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/FincaName"
-                android:textSize="23sp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="@string/compraDescripcion"
+                android:textSize="15dp"
                 android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/etFincaNameEdit"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:maxLines="1"
-                android:singleLine="true"
-                tools:text="Nombre finca" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/FincaAddres"
-                android:textSize="23sp"
+                android:text="@string/nameProductoCompra"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/etFincaAddresEdit"
+                android:id="@+id/etNameProducto"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
-                android:singleLine="true"
-                tools:text="cr 14 f .." />
+                android:singleLine="true" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/FincaHectares"
-                android:textSize="23sp"
+                android:text="@string/descriptionProductoCompra"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/etFincaHaectaresEdit"
+                android:id="@+id/etDesProducto"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
-                android:singleLine="true"
-                tools:text="18" />
+                android:singleLine="true" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/FincaCapacity"
-                android:textSize="23sp"
+                android:text="@string/fechaCompra"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/etFincaCapacityEdit"
+                android:id="@+id/etFechaCompra"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
-                android:singleLine="true"
-                tools:text="20" />
+                android:singleLine="true" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/FincaPicture"
-                android:textSize="23sp"
+                android:text="@string/precioCompraProducto"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/ivFincaEdit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/finca" />
+            <EditText
+                android:id="@+id/etPrecioProducto"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxLines="1"
+                android:singleLine="true" />
 
-            <Button
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:backgroundTint="@color/BotonRojo"
-                android:text="@string/FincaEdit" />
+                android:text="@string/Proveedor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etNombreProveedor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telProveedor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etTelProveedor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="@color/BotonRojo"
+                    android:text="@string/saveCompra" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="@color/BotonRojo"
+                    android:text="@string/compraGanado" />
+            </LinearLayout>
+
 
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/cow_icon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardEdit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

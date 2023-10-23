@@ -39,4 +39,22 @@
     <string name="FincaPicture">Foto de la finca</string>
     <string name="FincaEdit">Editar información de la finca</string>
     <string name="homePageFincaDescription">Seleccione la finca con la que desea ingresar, en caso de no tener una finca registrada seleccione el boton registrar finca.</string>
+    <string name="finanzasDescripcion">Dependiendo la acción que desee realizar de click en el boton correspondiente.</string>
+    <string name="finanzasGanancias">Ganancias</string>
+    <string name="finanzasPerdidas">Perdidas</string>
+    <string name="finanzasRecibos">Historial de recibos</string>
+    <string name="finanzasDescripcion2">Los botones mostrados a continuación le permiten realizar el registro de un recibo de compra en caso de adquirir un nuevo producto o un recibo de venta en caso de vender ganado.</string>
+    <string name="finanzasCompra">Recibo Compra</string>
+    <string name="finanzasVenta">Recibo venta</string>
+    <string name="compraDescripcion">Aqui podra añadir los insumos que compró para su finca, si lo que desea es añadir la compra de ganado seleccione el boton de comprar ganado.</string>
+    <string name="nameProductoCompra">Nombre del producto</string>
+    <string name="descriptionProductoCompra">Descripcion del producto</string>
+    <string name="fechaCompra">Fecha de compra</string>
+    <string name="precioCompraProducto">Precio de la compra</string>
+    <string name="Proveedor">Nombre proveedor</string>
+    <string name="telProveedor">Telefono proveedor</string>
+    <string name="compraGanado">Comprar ganado</string>
+    <string name="saveCompra">Guardar compra</string>
+
+
 </resources>
