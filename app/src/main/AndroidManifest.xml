@@ -19,6 +19,15 @@
             android:name=".homePageFinanzasActivity"
             android:exported="false" />
         <activity
+            android:name=".ConsultLevanteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultCriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GanadoHomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".EditFincaActivity"
             android:exported="false" />
         <activity
