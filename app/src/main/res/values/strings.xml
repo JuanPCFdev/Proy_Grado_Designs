@@ -79,6 +79,7 @@
     <string name="edit_Ganado_Genero">Genero</string>
     <string name="edit_Ganado_Tipo">Tipo</string>
     <string name="edit_Ganado_info">Información del Bovino</string>
+    <string name="edit_ganado_levante_costo">Costo</string>
     <string name="save_venta">Guardar recibo de venta</string>
     <string name="precioVenta">Precio animal</string>
     <string name="nameComprador">Nombre comprador</string>
