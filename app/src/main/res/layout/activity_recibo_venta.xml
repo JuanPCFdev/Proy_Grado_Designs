@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
         android:text="@string/finanzasVenta"
-        android:textSize="25dp"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/card"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,25 +31,26 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/title">
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="20dp"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="20dp">
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nameProductoCompra"
-                android:textSize="20sp"
+                android:text="@string/edit_Ganado_Marcacion"
+                android:textSize="23sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/etNameProducto"
+                android:id="@+id/etMarcacion"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
@@ -58,12 +59,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/descriptionProductoCompra"
-                android:textSize="20sp"
+                android:text="@string/edit_Ganado_Peso"
+                android:textSize="23sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/etDesProducto"
+                android:id="@+id/etPeso"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
@@ -72,12 +73,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fechaCompra"
-                android:textSize="20sp"
+                android:text="@string/precioVenta"
+                android:textSize="23sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/etFechaCompra"
+                android:id="@+id/etPrecioVenta"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
@@ -86,12 +87,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/precioCompraProducto"
-                android:textSize="20sp"
+                android:text="@string/edit_Ganado_Raza"
+                android:textSize="23sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/etPrecioProducto"
+                android:id="@+id/etRaza"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
@@ -100,8 +101,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Proveedor"
-                android:textSize="20sp"
+                android:text="@string/nameComprador"
+                android:textSize="23sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -114,8 +115,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/telProveedor"
-                android:textSize="20sp"
+                android:text="@string/telComprador"
+                android:textSize="23sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -125,28 +126,14 @@
                 android:maxLines="1"
                 android:singleLine="true" />
 
-            <LinearLayout
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginHorizontal="10dp"
-                    android:layout_marginTop="15dp"
-                    android:backgroundTint="@color/BotonRojo"
-                    android:text="@string/saveCompra" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="15dp"
-                    android:backgroundTint="@color/BotonRojo"
-                    android:text="@string/compraGanado" />
-            </LinearLayout>
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/BotonRojo"
+                android:text="@string/save_venta" />
 
 
         </LinearLayout>
