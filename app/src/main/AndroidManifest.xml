@@ -16,6 +16,9 @@
             android:name=".EditGanadoCriaActivity"
             android:exported="false" />
         <activity
+            android:name=".reciboVentaActivity"
+            android:exported="false" />
+        <activity
             android:name=".reciboCompraActivity"
             android:exported="false" />
         <activity
