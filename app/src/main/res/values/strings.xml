@@ -84,4 +84,6 @@
     <string name="precioVenta">Precio animal</string>
     <string name="nameComprador">Nombre comprador</string>
     <string name="telComprador">Telefono comprador</string>
+    <string name="GanadoCriaRegiser">Registrar Ganado de Cria</string>
+    <string name="GanadoLevanteRegiser">Registrar Ganado de Levante</string>
 </resources>
