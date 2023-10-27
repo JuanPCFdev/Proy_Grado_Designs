@@ -70,14 +70,18 @@
     <string name="edit_Ganado_Cria_Madre">Marcación Madre</string>
     <string name="edit_Ganado_Cria_Padre">Marcación Padre</string>
     <string name="edit_Ganado_Cria_Opcionales">Atributos Opcionales</string>
-    <string name="edit_Ganado_Cria_Marcacion">Marcación</string>
-    <string name="edit_Ganado_Cria_Fnac">Fecha Nacimiento</string>
-    <string name="edit_Ganado_Cria_Peso">Peso</string>
-    <string name="edit_Ganado_Cria_Edad">Edad</string>
-    <string name="edit_Ganado_Cria_Raza">Raza</string>
-    <string name="edit_Ganado_Cria_Estado">Estado</string>
-    <string name="edit_Ganado_Cria_Genero">Genero</string>
-    <string name="edit_Ganado_Cria_Tipo">Tipo</string>
-    <string name="edit_Ganado_Cria_info">Información del Bovino</string>
+    <string name="edit_Ganado_Marcacion">Marcación</string>
+    <string name="edit_Ganado_Fnac">Fecha Nacimiento</string>
+    <string name="edit_Ganado_Peso">Peso</string>
+    <string name="edit_Ganado_Edad">Edad</string>
+    <string name="edit_Ganado_Raza">Raza</string>
+    <string name="edit_Ganado_Estado">Estado</string>
+    <string name="edit_Ganado_Genero">Genero</string>
+    <string name="edit_Ganado_Tipo">Tipo</string>
+    <string name="edit_Ganado_info">Información del Bovino</string>
     <string name="edit_ganado_levante_costo">Costo</string>
+    <string name="save_venta">Guardar recibo de venta</string>
+    <string name="precioVenta">Precio animal</string>
+    <string name="nameComprador">Nombre comprador</string>
+    <string name="telComprador">Telefono comprador</string>
 </resources>
