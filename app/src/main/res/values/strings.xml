@@ -79,4 +79,5 @@
     <string name="edit_Ganado_Cria_Genero">Genero</string>
     <string name="edit_Ganado_Cria_Tipo">Tipo</string>
     <string name="edit_Ganado_Cria_info">Información del Bovino</string>
+    <string name="edit_ganado_levante_costo">Costo</string>
 </resources>
