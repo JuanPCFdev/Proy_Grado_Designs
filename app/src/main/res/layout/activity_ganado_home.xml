@@ -42,21 +42,19 @@
 
             <Button
                 android:id="@+id/btnConsultarGanadoCria"
+                style="@style/buttomPrincipal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="8dp"
-                android:backgroundTint="@color/BotonRojo"
-                android:text="@string/homePageGanado_consult_cria"
-                android:textStyle="bold" />
+                android:text="@string/homePageGanado_consult_cria" />
 
             <Button
                 android:id="@+id/btnConsultarGanadoLevante"
+                style="@style/buttomPrincipal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="8dp"
-                android:backgroundTint="@color/BotonRojo"
-                android:text="@string/homePageGanado_consult_levante"
-                android:textStyle="bold" />
+                android:text="@string/homePageGanado_consult_levante" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -69,21 +67,19 @@
 
             <Button
                 android:id="@+id/btnRegistrarGanadoCria"
+                style="@style/buttomPrincipal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="8dp"
-                android:backgroundTint="@color/BotonRojo"
-                android:text="@string/homePageGanado_register_cria"
-                android:textStyle="bold" />
+                android:text="@string/homePageGanado_register_cria" />
 
             <Button
                 android:id="@+id/btnRegistrarGanadoLevante"
+                style="@style/buttomPrincipal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="8dp"
-                android:backgroundTint="@color/BotonRojo"
-                android:text="@string/homePageGanado_register_levante"
-                android:textStyle="bold" />
+                android:text="@string/homePageGanado_register_levante" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -96,12 +92,11 @@
 
             <Button
                 android:id="@+id/btnVenderGanado"
+                style="@style/buttomPrincipal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="8dp"
-                android:backgroundTint="@color/BotonRojo"
-                android:text="@string/homePageGanado_sell"
-                android:textStyle="bold" />
+                android:text="@string/homePageGanado_sell" />
 
             <ImageView
                 android:layout_width="wrap_content"

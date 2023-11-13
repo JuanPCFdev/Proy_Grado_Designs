@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Proy_background"
     android:orientation="vertical"
     android:paddingHorizontal="30dp"
     android:paddingVertical="55dp"
-    tools:context=".EditUserInfoActivity"
-    android:background="@color/Proy_background">
+    tools:context=".EditUserInfoActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -61,14 +61,12 @@
         tools:text="Contraseña del usuario" />
 
     <Button
+        style="@style/buttomPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:text="@string/Proy_userEdit_Button_save"
-        android:textSize="16sp"
-        android:backgroundTint="@color/BotonRojo"
-        android:textStyle="bold" />
+        android:textSize="16sp" />
 
     <ImageView
         android:layout_width="100dp"

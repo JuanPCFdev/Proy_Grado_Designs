@@ -69,20 +69,18 @@
     </LinearLayout>
 
     <Button
+        style="@style/buttomPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="20dp"
-        android:backgroundTint="#80FF0000"
-        android:text="@string/Proy_user_edit_info"
-        android:textStyle="bold" />
+        android:text="@string/Proy_user_edit_info" />
 
     <Button
+        style="@style/buttomPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="20dp"
-        android:backgroundTint="#80FF0000"
-        android:text="@string/Proy_user_edit_password"
-        android:textStyle="bold" />
+        android:text="@string/Proy_user_edit_password" />
 
     <ImageView
         android:layout_width="100dp"

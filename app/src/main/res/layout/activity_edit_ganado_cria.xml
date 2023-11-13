@@ -249,6 +249,7 @@
                         tools:text="123456789" />
                 </LinearLayout>
             </LinearLayout>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -256,6 +257,7 @@
                 android:text="@string/edit_Ganado_Cria_Opcionales"
                 android:textSize="21sp"
                 android:textStyle="bold" />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -317,10 +319,10 @@
 
     <Button
         android:id="@+id/btnGuardarCambios"
+        style="@style/buttomPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="3dp"
-        android:backgroundTint="@color/BotonRojo"
         android:text="@string/Proy_userEdit_Button_save" />
 
     <ImageView

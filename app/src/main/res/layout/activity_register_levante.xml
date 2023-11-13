@@ -266,10 +266,10 @@
 
     <Button
         android:id="@+id/btnGuardarCambios"
+        style="@style/buttomPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="3dp"
-        android:backgroundTint="@color/BotonRojo"
         android:text="@string/homePageGanado_register" />
 
     <ImageView

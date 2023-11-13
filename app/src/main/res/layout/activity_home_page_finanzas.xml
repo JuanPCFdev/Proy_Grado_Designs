@@ -51,27 +51,26 @@
 
                     <Button
                         android:id="@+id/ganancias"
+                        style="@style/buttomPrincipal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="16dp"
-                        android:backgroundTint="@color/BotonRojo"
                         android:text="@string/finanzasGanancias" />
 
                     <Button
                         android:id="@+id/perdidas"
+                        style="@style/buttomPrincipal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="@color/BotonRojo"
                         android:text="@string/finanzasPerdidas" />
 
                 </LinearLayout>
 
                 <Button
                     android:id="@+id/historialRecibo"
+                    style="@style/buttomPrincipal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="@color/BotonRojo"
-                    android:gravity="center"
                     android:text="@string/finanzasRecibos" />
             </LinearLayout>
 
@@ -106,17 +105,17 @@
 
                     <Button
                         android:id="@+id/ventas"
+                        style="@style/buttomPrincipal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="16dp"
-                        android:backgroundTint="@color/BotonRojo"
                         android:text="@string/finanzasVenta" />
 
                     <Button
                         android:id="@+id/compras"
+                        style="@style/buttomPrincipal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="@color/BotonRojo"
                         android:text="@string/finanzasCompra" />
 
                 </LinearLayout>

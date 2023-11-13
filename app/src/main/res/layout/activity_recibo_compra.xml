@@ -141,18 +141,16 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginTop="15dp"
-                    android:backgroundTint="@color/BotonRojo"
+                    style="@style/buttomPrincipal"
                     android:text="@string/saveCompra" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
                     android:layout_marginTop="15dp"
-                    android:backgroundTint="@color/BotonRojo"
+                    style="@style/buttomPrincipal"
                     android:text="@string/compraGanado" />
             </LinearLayout>
 

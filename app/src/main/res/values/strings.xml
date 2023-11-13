@@ -86,4 +86,6 @@
     <string name="telComprador">Telefono comprador</string>
     <string name="GanadoCriaRegiser">Registrar Ganado de Cria</string>
     <string name="GanadoLevanteRegiser">Registrar Ganado de Levante</string>
+    <string name="historial">Historial recibos</string>
+    <string name="perdidas">Visualizacion perdidas</string>
 </resources>
